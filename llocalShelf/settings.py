@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'llocalShelf.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'labView01',
-        'USER': 'app_user01',
-        'PASSWORD': 'ap01206265',
+        'NAME': 't430local',
+        'USER': 'stv',
+        'PASSWORD': '206265',
         'HOST': '192.168.1.72',
         'PORT': '5432',
     }
@@ -109,9 +109,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Moscow'
 
 USE_I18N = True
 
